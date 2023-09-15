@@ -1,0 +1,18 @@
+[01-Feb-2023 14:18:17 UTC] PHP Warning:  Undefined array key "amount" in /home/sassolut/public_html/driving_school/API/ payment.php on line 8
+[01-Feb-2023 14:23:16 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:23:22 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:24:00 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:24:17 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:27:08 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:27:26 UTC] PHP Warning:  Undefined array key "status" in /home/sassolut/public_html/driving_school/API/get_students.php on line 7
+[01-Feb-2023 14:44:39 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'undefined' in 'where clause' in /home/sassolut/public_html/driving_school/API/get_payment.php:10
+Stack trace:
+#0 /home/sassolut/public_html/driving_school/API/get_payment.php(10): mysqli_query()
+#1 {main}
+  thrown in /home/sassolut/public_html/driving_school/API/get_payment.php on line 10
+[07-Apr-2023 19:17:56 UTC] PHP Warning:  Undefined array key "user_id" in /home/sassolut/public_html/driving_school/API/get_inbox.php on line 8
+[07-Apr-2023 19:17:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2 in /home/sassolut/public_html/driving_school/API/get_inbox.php:12
+Stack trace:
+#0 /home/sassolut/public_html/driving_school/API/get_inbox.php(12): mysqli_query()
+#1 {main}
+  thrown in /home/sassolut/public_html/driving_school/API/get_inbox.php on line 12
